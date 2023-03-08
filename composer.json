@@ -26,5 +26,5 @@
                 "GeekrOpenAI\\Laravel\\ServiceProvider"
             ]
         }
-    },
+    }
 }
