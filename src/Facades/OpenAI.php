@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static \OpenAI\Resources\Models models()
  * @method static \OpenAI\Resources\Moderations moderations()
  */
-final class OpenAI extends Facade
+class OpenAI extends Facade
 {
     /**
      * Get the registered name of the component.

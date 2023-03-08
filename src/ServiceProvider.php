@@ -12,7 +12,7 @@ use GeekrOpenAI\Laravel\Exceptions\ApiKeyIsMissing;
 /**
  * @internal
  */
-final class ServiceProvider extends BaseServiceProvider
+class ServiceProvider extends BaseServiceProvider
 {
     /**
      * Register any application services.
