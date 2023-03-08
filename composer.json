@@ -1,0 +1,23 @@
+{
+    "name": "geekr/openai-laravel",
+    "description": "Laravel OpenAI wrapper with suppoort for proxy",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GeekrOpenai\\Laravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "geekr",
+            "email": "geekr@hey.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1.0",
+        "laravel/framework": "^9.46.0|^10.2.0",
+        "openai-php/client": "^0.3.4"
+    }
+}
